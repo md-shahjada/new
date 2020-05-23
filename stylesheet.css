@@ -1,0 +1,41 @@
+body{
+    background-image: url("background/background-blur-clean-clear-531880.jpg");
+    background-size: cover;
+
+}
+@font-face{
+    font-family: 'panthonrush';
+    src: url(font/PantoRust-Free/OTF/PantonRustHeavy-GrSh.otf);
+}
+h1{
+    font-family: panthonrush;
+    font-size: 70px;
+    margin-top: 20%;
+    left: 50%;
+    text-align: center;
+    color: black;
+
+
+}
+button{
+    padding-left: 650px;
+    font-size: xx-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    position: absolute;
+    text-align: center;
+    padding-left: 45%;
+    padding-top: 4%;
+
+}
+ btn{
+     border: 1px solid white;
+     border-radius: 40px;
+     padding: 10px 30px;
+     color: white;
+     text-decoration: none;
+     transition: 0.6s ease;
+ }
+ btn:hover{
+     background-color: black;
+ }
